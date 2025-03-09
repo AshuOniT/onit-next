@@ -1,7 +1,7 @@
+"use client"
 import { Mail } from "lucide-react"
 import Image from "next/image"
 import needHelp from "@/public/needHelp/needHelp.png"
-// import plumber from "@/public/needHelp/plumber.png"
 import acRepair from "@/public/needHelp/acRepair.png"
 
 const NeedHelp = () => {

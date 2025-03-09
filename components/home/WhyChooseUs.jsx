@@ -1,3 +1,5 @@
+"use client"
+
 import { MdVerified } from "react-icons/md";
 import { MdHandyman } from "react-icons/md";
 import { MdAccessTime } from "react-icons/md";
