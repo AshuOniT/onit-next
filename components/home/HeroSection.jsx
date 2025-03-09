@@ -152,7 +152,7 @@ const HeroSection = () => {
                                                 onChange={handleChange}
                                                 className="w-full rounded-md p-2 px-3 mt-1 bg-white"
                                             />
-                                        ) : field === 'service' && services.length > 0 ? (
+                                        ) : field === 'service' && services.length > 0 ? ( 
                                             <Select
                                                 className="bg-white text-sm rounded-xl mt-1"
                                                 placeholder="Select an option"
