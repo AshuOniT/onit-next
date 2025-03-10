@@ -14,16 +14,12 @@ export default function Home() {
     <>
       <HeroSection />
 
-      {/* Google Play Store CTS */}
-      <GooglePlayStoreCta />
+      {/* <GooglePlayStoreCta />
 
-      {/* Services  */}
       <Services />
 
-      {/*Plane CTA */}
       <PlaneCta />
 
-      {/*How it works */}
       <HowItWorks />
 
       <WhyChooseUs />
@@ -32,7 +28,7 @@ export default function Home() {
 
       <Testimonial />
 
-      <Footer />
+      <Footer /> */}
 
     </>
   );

@@ -16,7 +16,6 @@ const menuItems = [
 ]
 
 
-
 export default function Header() {
 
   const [activeMenu, setActiveMenu] = useState(true)
