@@ -92,11 +92,16 @@ export default function HowItWorks() {
 
 
                                     <motion.div
-                                        className={`rounded-full p-3 transition-colors ${index <= activeIndex ? 'bg-amber-50' : 'bg-background'
+                                        className={`rounded-full p-3 transition-colors ${index <= activeIndex ? 'bg-teal-50' : 'bg-background'
                                             }`}
+                                        // animate={{
+                                        //     backgroundColor: index <= activeIndex ? 'rgb(255 251 235)' : 'rgb(255 255 255)',
+                                        // }}
                                         animate={{
-                                            backgroundColor: index <= activeIndex ? 'rgb(255 251 235)' : 'rgb(255 255 255)',
+                                            backgroundColor: index <= activeIndex ? 'rgb(230 255 240)' : 'rgb(245 255 250)',
                                         }}
+                                        
+                                        
                                         transition={{ duration: 0.3 }}
                                     >
 

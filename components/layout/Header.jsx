@@ -11,7 +11,7 @@ import { PiHandshakeFill } from "react-icons/pi";
 const menuItems = [
   { title: 'Home', slug: '/' },
   { title: 'About Us', slug: '/about-us' },
-  { title: 'Contact Us', slug: '/contact-us' },
+  { title: 'Request Service', slug: '/service-form' },
   { title: 'Careers', slug: '/careers' },
 ]
 
@@ -108,13 +108,15 @@ export default function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1">
               {menuItems.map((item) => (
                 <div key={item.title}>
-                  <button
+                  <Link href={item.slug} onClick={() => {
+                    toggleMobileMenu();
+                  }}
                     className="w-full block text-left text-black hover:text-orange-500 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
                   >
 
                     {item.title}
 
-                  </button>
+                  </Link>
 
                 </div>
               ))}

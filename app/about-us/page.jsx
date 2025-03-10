@@ -16,7 +16,7 @@ const AboutUs = () => {
                                     <h1 className="text-3xl text-white lg:text-5xl font-bold lg:tracking-wide lg:pr-10 lg:py-6 py-3 leading-tight">
                                         About Us
                                     </h1>
-                                    <p className="lg:text-lg text-md text-gray-300 font-medium">
+                                    <p className="lg:text-lg text-md text-gray-200 font-medium">
                                         Welcome to OniT Services, where every home challenge meets its solution. Founded with a simple belief that quality home services should be accessible to everyone, we've grown from a small team of dedicated professionals to a family of expert technicians serving thousands of homeowners. Our journey is built on trust, reliability, and the smiles we bring to families when we turn house troubles into peace of mind.
                                     </p>
                                 </div>

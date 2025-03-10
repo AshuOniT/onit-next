@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="my-4">
                 <Image src={onitLogo} alt="onitLog" className="h-16 object-contain" />
               </div>
-              <div className="text-gray-300">
+              <div className="text-gray-200">
                 <p>OniT services
                   Aspen Heights Vaibhav Khand,
                   Indirapuram, Gaziabad ( UP )
@@ -32,20 +32,20 @@ const Footer = () => {
 
             <div className="w-full md:w-[70%] my-4">
               <div className="px-4">
-                <h3 className="text-gray-300 text-center my-4 md:my-0 text-xl font-bold  md:text-left">
+                <h3 className="text-gray-200 text-center my-4 md:my-0 text-xl font-bold  md:text-left">
                   Quick Links
                 </h3>
                 <ul className="mx-auto w-fit md:w-full text-sm columns-2 gap-x-6 md:gap-x-0 gap-y-2 md:flex md:flex-wrap md:flex-row md:items-center justify-start md:divide-x-2 divide-gray-400 my-4">
-                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-300 hover:text-teal-700 ">
+                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
                     <Link href="/">Terms of Service</Link>
                   </li>
-                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-300 hover:text-teal-700 ">
+                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
                     <Link href="/">Privacy Policy</Link>
                   </li>
-                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-300 hover:text-teal-700 ">
+                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
                     <Link href="/">Refund Policy</Link>
                   </li>
-                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-300 hover:text-teal-700 ">
+                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
                     <Link href="/contact-us">Help &amp; Contact </Link>
                   </li>
                 </ul>
@@ -78,7 +78,7 @@ const Footer = () => {
                   <ul className="flex items-center justify-center md:justify-end gap-x-4">
                     <li
                       title="Facebook Page"
-                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-300 hover:text-[#3B5998]"
+                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-200 hover:text-[#3B5998]"
                     >
                       <Link href="https://www.facebook.com/profile.php?id=100083150591316" target="_blank" rel="noopener noreferrer">
                         <FaFacebookF fontSize={25} />
@@ -86,7 +86,7 @@ const Footer = () => {
                     </li>
                     <li
                       title="Instagram Page"
-                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-300 hover:text-[#C13584] "
+                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-200 hover:text-[#C13584] "
                     >
                       <Link href="https://www.instagram.com/onitservices/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram fontSize={25} />
@@ -94,7 +94,7 @@ const Footer = () => {
                     </li>
                     <li
                       title="Linked Page"
-                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-300 hover:text-[#3B5998]"
+                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-200 hover:text-[#3B5998]"
                     >
                       <Link href="/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedinIn fontSize={25} />
@@ -102,7 +102,7 @@ const Footer = () => {
                     </li>
                     <li
                       title="Youtube Account"
-                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-300 hover:text-[#FF0000]"
+                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-200 hover:text-[#FF0000]"
                     >
                       <Link href="https://www.youtube.com/channel/UCuhzqj34gLM10HFT8BUXQGg" target="_blank" rel="noopener noreferrer">
                         <FaYoutube fontSize={25} />
@@ -110,7 +110,7 @@ const Footer = () => {
                     </li>
                     <li
                       title="Twitter Page"
-                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-300 hover:text-[#1DA1F2]"
+                      className="transition-all duration-200 ease-in-out delay-75 hover:cursor-pointer text-gray-200 hover:text-[#1DA1F2]"
                     >
                       <Link href="https://x.com/services_onit?t=SquaGUwKq6gK6wi1PisNKQ&s=08" target="_blank" rel="noopener noreferrer">
                         <FaXTwitter fontSize={25} />
@@ -126,8 +126,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col gap-y-2 md:flex-row items-center justify-between bg-black text-white h-full py-4 px-10">
-          <p className="text-xs font-medium text-gray-300">Designed & Developed by <span className="font-semibold text-white"> OniT Services </span></p>
-          <p className="text-sm font-semibold text-gray-300">
+          <p className="text-xs font-medium text-gray-200">Designed & Developed by <span className="font-semibold text-white"> OniT Services </span></p>
+          <p className="text-sm font-semibold text-gray-200">
             <span> &copy; {new Date().getFullYear()}.</span>
             <span> All right reserved. &nbsp;</span>
           </p>

@@ -46,7 +46,7 @@ const PlaneCta = () => {
 
                         <div className='flex justify-center items-center'>
 
-                            <Link href="contact-us" className='flex items-center justify-center gap-2 bg[#261E80] p-1 pr-3 font-medium text-md bg-orange500 bg-gray-800 rounded-full mt-4 text-white'> <span className='bg-white rounded-full p-3 text-xl text-black animatebounce vibrating-icon'> <FaPhoneAlt /> </span> <span> {ctaMainObj.ctaText} </span></Link>
+                            <Link href="service-form" className='flex items-center justify-center gap-2 bg[#261E80] p-1 pr-3 font-medium text-md bg-orange500 bg-gray-800 rounded-full mt-4 text-white'> <span className='bg-white rounded-full p-3 text-xl text-black animatebounce vibrating-icon'> <FaPhoneAlt /> </span> <span> {ctaMainObj.ctaText} </span></Link>
 
                         </div>
 

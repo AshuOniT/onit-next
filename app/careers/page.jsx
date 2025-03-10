@@ -36,7 +36,7 @@ const Careers = () => {
                                     <h1 className="text-3xl text-white lg:text-5xl font-bold lg:tracking-wide lg:pr-10 lg:py-6 py-3 leading-tight">
                                         OniT Careers
                                     </h1>
-                                    <p className="lg:text-lg text-md text-gray-300 font-medium">
+                                    <p className="lg:text-lg text-md text-gray-200 font-medium">
                                         Join our team of skilled professionals at OniT Services. We're looking for talented AC technicians,
                                         plumbers, and electricians who are passionate about delivering quality home services. Build your
                                         career with us and enjoy competitive pay, ongoing training, and a supportive work environment that

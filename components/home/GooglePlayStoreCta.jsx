@@ -16,7 +16,7 @@ const GooglePlayStoreCta = () => {
 
                     <div className="py-4">
                         <h3 className="text-3xl text-white font-bold mb-4">Skip the hassle. Book services in seconds.</h3>
-                        <p className="text-gray-300">Join over 10,000+ homeowners already enjoying on-demand home services with our app. Why struggle with phone calls when help is just a tap away?</p>
+                        <p className="text-gray-200">Join over 10,000+ homeowners already enjoying on-demand home services with our app. Why struggle with phone calls when help is just a tap away?</p>
                     </div>
 
                     <Link href="https://play.google.com/store/apps/details?id=com.onit.consumer" className="flex justify-center items-center w-2/3">

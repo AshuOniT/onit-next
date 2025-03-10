@@ -104,11 +104,11 @@ const HeroSection = () => {
 
                         <div className='flex flex-wrap z-10 h-full'>
                             <div className='z-10 w-full'>
-                                <span className='text-white text-base block lg:tracking-wide'>Your Comfort, Our Priority</span>
+                                <span className='text-gray-200 text-base block lg:tracking-wide'>Your Comfort, Our Priority</span>
                                 <h1 className='text-3xl text-white lg:text-5xl font-bold lg:tracking-wide lg:pr-10 lg:py-6 py-3 leading-tight'>
                                     Expert AC Repair & Maintenance Services
                                 </h1>
-                                <p className='lg:text-lg text-md mb-6 text-white font-medium'>
+                                <p className='lg:text-lg text-md mb-6 text-gray-200 font-medium'>
                                     At Onit Services, we understand the importance of a comfortable home. That's why we offer top-notch AC services, along with expert electricians, cleaners, carpenters, and plumbers. Whether you need a quick fix or a complete overhaul, our team is here to ensure your home runs smoothly and efficiently. Let us take care of your home, so you can focus on what matters most.
                                 </p>
                                 <button className="flex items-center justify-center sm:justify-start">
