@@ -1,6 +1,6 @@
 import HeroSection from "@/components/home/HeroSection";
-// import Services from "@/components/home/Services";
-// import GooglePlayStoreCta from "@/components/home/GooglePlayStoreCta";
+import Services from "@/components/home/Services";
+import GooglePlayStoreCta from "@/components/home/GooglePlayStoreCta";
 import PlaneCta from "@/components/layout/PlaneCta";
 import HowItWorks from "@/components/home/HowItWorks";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
@@ -13,8 +13,9 @@ export default function Home() {
     <>
       <HeroSection />
 
-       {/* <GooglePlayStoreCta />
-      <Services /> */}
+      <GooglePlayStoreCta />
+
+      <Services />
 
       <PlaneCta />
 

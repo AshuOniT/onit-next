@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-
 import Lottie from "lottie-react";
 import GooglePlayStore from "@/public/googleplay/GooglePlayStore.json";
 import Link from 'next/link';
@@ -17,7 +16,7 @@ const GooglePlayStoreCta = () => {
                         <p className="text-gray-300">Join over 10,000+ homeowners already enjoying on-demand home services with our app. Why struggle with phone calls when help is just a tap away?</p>
                     </div>
 
-                    <Link target='_' href="https://play.google.com/store/apps/details?id=com.onit.consumer" className="flex justify-center items-center w-2/3">
+                    <Link href="https://play.google.com/store/apps/details?id=com.onit.consumer" className="flex justify-center items-center w-2/3">
                         <Lottie style={{ height: 80 }} animationData={GooglePlayStore} loop={true} />
                     </Link>
                 </div>
@@ -28,4 +27,5 @@ const GooglePlayStoreCta = () => {
 }
 
 export default GooglePlayStoreCta
+
 
