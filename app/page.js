@@ -14,13 +14,13 @@ export default function Home() {
     <>
       <HeroSection />
 
-      {/* <GooglePlayStoreCta />
+       <GooglePlayStoreCta />
 
       <Services />
 
       <PlaneCta />
 
-      <HowItWorks />
+     {/* <HowItWorks />
 
       <WhyChooseUs />
 
