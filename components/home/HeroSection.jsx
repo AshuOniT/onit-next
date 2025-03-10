@@ -9,49 +9,48 @@ const Select = dynamic(() => import("react-select"), { ssr: false });
 
 const services = [
     {
-        label: 'KITCHEN APPLIANCE - WATER PURIFIER, CHIMNEY ETC',
+        label: 'Kitchen Appliance - Water Purifier, Chimney etc',
         id: "1",
     },
     {
-        label: 'AIR CONDITIONER - DOMESTIC (WINDOW AND SPLIT AC)',
+        label: 'Air Conditioner - Domestic (Window and Split AC)',
         id: "2",
     },
     {
         label:
-            'PLUMBING - SHOWER, TAP, MIXER, CISTERN AND SEAT, OVERHEAD TANK FITTING ETC',
+            'Plumbing - Shower, Tap, Mixer, Cistern and Seat, Overhead Tank Fitting etc',
         id: "3",
     },
     {
         label:
-            'ELECTRICIAN - FAN, TUBE, INVERTOR, HOUSE WIRING, MIXER, TOSTER, GRIDER ETC',
+            'Electrician - Fan, Tube, Invertor, House Wiring, Mixer, Toster, Grider etc',
         id: "4",
     },
     {
-        label: 'DIGITAL DEVICES - CCTV, LAPTOP, PRINTER, MOBILES ETC',
+        label: 'Digital Devices - CCTV, Laptop, Printer, Mobiles etc',
         id: "5",
     },
     {
-        label: 'PAINT AND WHITEWASH - WHITEWASH / TEXTURE PAINT',
+        label: 'Paint and Whitewash - Whitewash / Texture Paint',
         id: "6",
     },
     {
-        label: 'CARPENTER - ASSEMBLY/FITTINGS, DOOR/WINDOW, FURNITURE REPAIR ETC',
+        label: 'Carpenter - Assembly/Fittings, Door/Window, Furniture Repair etc',
         id: "7",
     },
     {
-        label: 'HOSPITALITY SERVICES - CLEANING, SWEEPING, DUSTING, UTENSILS ETC',
+        label: 'Hospitality Services - Cleaning, Sweeping, Dusting, Utensils etc',
         id: "8",
     },
     {
-        label: 'HOME APPLIANCE - WASHING MACHINE, REFRIGERATOR, MWO, TV ETC',
+        label: 'Home Appliance - Washing Machine, Refrigerator, MWO, TV etc',
         id: "9",
     },
     {
-        label: 'DRIVER (CAR, BIKE) - PICKUP AND DROP SERVICE',
+        label: 'Driver (Car, Bike) - Pickup and Drop Service',
         id: "10",
     },
 ];
-
 
 const HeroSection = () => {
 

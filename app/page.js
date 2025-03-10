@@ -5,7 +5,7 @@ import PlaneCta from "@/components/layout/PlaneCta";
 import HowItWorks from "@/components/home/HowItWorks";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import Testimonial from "@/components/home/Testimonial";
-import NeedHelp from "@/components/home/NeedHelp";
+import NeedHelp from "@/components/layout/NeedHelp";
 
 
 export default function Home() {

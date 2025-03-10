@@ -41,7 +41,7 @@ const NeedHelp = () => {
           {/* Right side with text content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Need any kind of <span className="text-teal-600">Help?</span>
+              Need any kind of <span className="text-teal-800">Help?</span>
             </h2>
 
             <p className="text-gray-700 mb-8 max-w-lg mx-auto md:mx-0">
@@ -52,7 +52,7 @@ const NeedHelp = () => {
 
             <a
               href="mailto:contact@onit.services"
-              className="inline-flex items-center gap-2 bg-teal-600 text-white px-6 py-3 rounded-md hover:bg-teal-700 transition-colors"
+              className="inline-flex items-center gap-2 bg-teal-800 text-white px-6 py-3 rounded-md hover:bg-teal-700 transition-colors"
             >
               <Mail className="h-5 w-5" />
               contact@onit.services
