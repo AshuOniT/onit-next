@@ -1,12 +1,11 @@
 import HeroSection from "@/components/home/HeroSection";
-import Services from "@/components/home/Services";
-import GooglePlayStoreCta from "@/components/home/GooglePlayStoreCta";
+// import Services from "@/components/home/Services";
+// import GooglePlayStoreCta from "@/components/home/GooglePlayStoreCta";
 import PlaneCta from "@/components/layout/PlaneCta";
 import HowItWorks from "@/components/home/HowItWorks";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import Testimonial from "@/components/home/Testimonial";
 import NeedHelp from "@/components/home/NeedHelp";
-import Footer from "@/components/layout/Footer";
 
 
 export default function Home() {
@@ -14,21 +13,18 @@ export default function Home() {
     <>
       <HeroSection />
 
-       <GooglePlayStoreCta />
-
-      <Services />
+       {/* <GooglePlayStoreCta />
+      <Services /> */}
 
       <PlaneCta />
 
-     {/* <HowItWorks />
+     <HowItWorks />
 
       <WhyChooseUs />
 
       <NeedHelp />
 
-      <Testimonial />
-
-      <Footer /> */}
+      <Testimonial /> 
 
     </>
   );
