@@ -11,7 +11,7 @@ import acService from "@/public/services/acService.jpg"
 const services = [
     {
         id: "1",
-        slug: "ac-services",
+        slug: "/service-form",
         title: "AC Services",
         description: "Expert AC repairs, maintenance and installations with 24/7 emergency service. We bring comfort back to your home when you need it most.",
         image: acService,
@@ -19,7 +19,7 @@ const services = [
     },
     {
         id: "2",
-        slug: "contact-us",
+        slug: "/service-form",
         title: "Carpenter Services",
         description: "Transform your space with custom woodwork, from cabinetry to decks. Our craftsmen combine beauty with functionality for lasting home value.",
         image: carpenter,
@@ -27,7 +27,7 @@ const services = [
     },
     {
         id: "3",
-        slug: "contact-us",
+        slug: "/service-form",
         title: "Electrician Services",
         description: "Licensed electricians for everything from flickering lights to complete rewiring. Safety-first approach with code-compliant solutions.",
         image: electrician,
@@ -35,7 +35,7 @@ const services = [
     },
     {
         id: "4",
-        slug: "contact-us",
+        slug: "/service-form",
         title: "Plumber Services",
         description: "Fast, reliable plumbing solutions for leaks, installations and renovations. We deliver permanent fixes, not temporary patches.",
         image: plumbing,
@@ -43,7 +43,7 @@ const services = [
     },
     {
         id: "5",
-        slug: "contact-us",
+        slug: "/service-form",
         title: "Cleaning Services",
         description: "Detail-oriented cleaning that transforms your home with eco-friendly products and personalized plans to fit your specific needs.",
         image: cleaningServices,
