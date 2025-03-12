@@ -1,4 +1,5 @@
 import React from 'react'
+import ServiceRequestForm from "@/components/serviceRequestForm/ServiceRequestForm"
 
 const ServiceForm = () => {
     return (
@@ -22,7 +23,7 @@ const ServiceForm = () => {
                                         At OniT Services, we turn household challenges into solutions. Our team of certified professionals is ready to bring reliability and expertise to your doorstep.
                                     </p>
 
-                                    <p className="lg:text-lg text-md text-gray-200 font-medium">
+                                    <p className="lg:text-lg hidden lg:flex text-md text-gray-200 font-medium">
                                         Please share details about your requirements for AC repair, plumbing, electrical work, or other technical services. The more specific you are about the issue, location, and preferred timing, the better we can match you with the right specialist.
                                     </p>
 
@@ -32,6 +33,8 @@ const ServiceForm = () => {
                     </div>
                 </div>
             </div>
+
+            <ServiceRequestForm />
 
         </>
     )

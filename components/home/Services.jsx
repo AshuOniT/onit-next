@@ -2,7 +2,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import cleaningServices from "@/public/services/cleaningService.avif"
+import cleaningServices from "@/public/services/cleaningService.jpg"
 import plumbing from "@/public/services/plumbing.jpg"
 import electrician from "@/public/services/electrician.jpg"
 import carpenter from "@/public/services/carpenter.jpg"
