@@ -58,6 +58,25 @@ body {
   /* background-image: linear-gradient(145deg, #f81f01 10%, #ee076e 100%); */
 }
 
+.onit-service-HeroSection {
+  background-color: #000000;
+}
+
+.onit-service-HeroSection::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url("https://webtk.sfastservices.com/blogimg/split-ac-service%20Sfastservices.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  z-index: 1;
+  opacity: 0.3;
+}
+
 .footer-left {
   background-image: linear-gradient(145deg, #f81f01 10%, #ee076e 100%);
 }
@@ -70,13 +89,14 @@ body {
   left: 0;
   top: 0;
   /* background-image: url("/nameSoon/pattern-footer.png"); */
-  background-image: url("https://www.onit.services/static/media/Group_62709.4d6019f1.png");
+  background-image: url("/heroBgImg.png");
   background-size: cover;
   background-repeat: no-repeat;
   content: "";
   z-index: 1;
   opacity: 0.5;
 }
+
 
 .onit-careers-HeroSection::before {
   position: absolute;

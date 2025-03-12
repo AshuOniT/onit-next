@@ -11,6 +11,13 @@ import playstore from "@/public/onitLogo/playstore.webp";
 import appstore from "@/public/onitLogo/Appstore.webp";
 import Link from "next/link";
 
+const activeSlugData = [
+  { slug: "ac-services-noida", label: "AC Services in Noida" },
+  { slug: "ac-services-delhi", label: "AC Services in Delhi" },
+  { slug: "ac-services-ghaziabad", label: "AC Services in Ghaziabad" }
+];
+
+
 const Footer = () => {
   return (
     <>
@@ -49,6 +56,15 @@ const Footer = () => {
                     <Link href="/contact-us">Help &amp; Contact </Link>
                   </li>
                 </ul>
+
+                <ul className="mx-auto w-fit md:w-full text-sm columns-2 gap-x-6 md:gap-x-0 gap-y-2 md:flex md:flex-wrap md:flex-row md:items-center justify-start md:divide-x-2 divide-gray-400 my-4">
+                  {activeSlugData.map((item, index) => (
+                    <li key={index} className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700">
+                      <Link href={`/${item.slug}`}>{item.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+
               </div>
               <hr className="mx-4 border-0.5 border-gray-400" />
               <div className="px-4 flex items-center flex-col-reverse md:flex-row md:items-start justify-between gap-y-4 gap-x-4 my-4 w-full ">
@@ -57,11 +73,12 @@ const Footer = () => {
                 <div className="w-full md:m-0">
                   <ul className="flex items-center justify-center md:justify-start gap-x-4">
                     <li className="w-fit flex justify-center">
-                      <Image
+                      <Link href="https://play.google.com/store/apps/details?id=com.onit.consumer"> <Image
                         src={playstore}
                         className="object-contain h-9 w-auto"
                         alt="Playstore"
                       />
+                      </Link>
                     </li>
                     <li className="w-fit flex justify-center">
                       <Image

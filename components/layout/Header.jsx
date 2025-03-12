@@ -78,7 +78,7 @@ export default function Header() {
 
 
           <button className="hidden lg:flex items-center justify-center sm:justify-start ">
-            <Link href="tel:+91-8800502322" className='flex items-center justify-center gap-1 border-2 p-1 pl-2 font-medium text-md rounded-full text-white'>
+            <Link href="/service-form" className='flex items-center justify-center gap-1 border-2 p-1 pl-2 font-medium text-md rounded-full text-white'>
               <span className="px-2"> Let's Connect </span>
               <span className='bg-white rounded-full p-2 text-black vibrating-icon'>
                 <PiHandshakeFill size="1.2em" />

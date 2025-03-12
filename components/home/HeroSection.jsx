@@ -1,56 +1,59 @@
 "use client"
 
 import dynamic from 'next/dynamic';
+const Select = dynamic(() => import("react-select"), { ssr: false });
 import React, { useState } from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
 import Link from 'next/link';
-const Select = dynamic(() => import("react-select"), { ssr: false });
 // import { useSubmitContactFormMutation } from '#/store/api/myApi';
 
 const services = [
     {
-        label: 'Kitchen Appliance - Water Purifier, Chimney etc',
-        id: "1",
-    },
-    {
-        label: 'Air Conditioner - Domestic (Window and Split AC)',
-        id: "2",
-    },
-    {
-        label:
-            'Plumbing - Shower, Tap, Mixer, Cistern and Seat, Overhead Tank Fitting etc',
-        id: "3",
-    },
-    {
-        label:
-            'Electrician - Fan, Tube, Invertor, House Wiring, Mixer, Toster, Grider etc',
-        id: "4",
-    },
-    {
-        label: 'Digital Devices - CCTV, Laptop, Printer, Mobiles etc',
-        id: "5",
-    },
-    {
-        label: 'Paint and Whitewash - Whitewash / Texture Paint',
-        id: "6",
-    },
-    {
-        label: 'Carpenter - Assembly/Fittings, Door/Window, Furniture Repair etc',
+        label: 'AIR CONDITIONER - Installation, Repair, and Maintenance, including Geysers.',
         id: "7",
     },
     {
-        label: 'Hospitality Services - Cleaning, Sweeping, Dusting, Utensils etc',
+        label: 'CLEANING SERVICES - Cleaning, Sweeping, Dusting, Utensils, etc.',
+        id: "5",
+    },
+    {
+        label: 'PLUMBING - Shower, Tap, Mixer, Cistern and Seat, Overhead Tank Fitting, etc.',
+        id: "6",
+    },
+    {
+        label: 'ELECTRICIAN - Fan, Tube, Inverter, House Wiring, Mixer, Toaster, Grinder, etc.',
+        id: "2",
+    },
+    {
+        label: 'DRIVER (CAR, BIKE) - Pickup and Drop Service',
+        id: "3",
+    },
+    {
+        label: 'CARPENTER - Assembly/Fittings, Door/Window, Furniture Repair, etc.',
+        id: "4",
+    },
+    {
+        label: 'DIGITAL DEVICES - CCTV, Laptop, Printer, Mobiles, DTH, etc.',
         id: "8",
     },
     {
-        label: 'Home Appliance - Washing Machine, Refrigerator, MWO, TV etc',
+        label: 'HOME APPLIANCE - Washing Machine, Refrigerator, Microwave Oven, TV, etc.',
         id: "9",
     },
     {
-        label: 'Driver (Car, Bike) - Pickup and Drop Service',
+        label: 'BEAUTY AND PERSONAL CARE - Spa, Massage, Facial, Hair Services, Makeup, Mehndi Art, etc.',
         id: "10",
     },
+    {
+        label: 'KITCHEN APPLIANCE - Water Purifier, Chimney, Gas Stove Repair, etc.',
+        id: "11",
+    },    
+    {
+        label: 'LIFT REPAIR AND MAINTENANCE',
+        id: "1",
+    },
 ];
+
 
 const HeroSection = () => {
 
@@ -116,7 +119,7 @@ const HeroSection = () => {
                                         <span className='bg-white rounded-full p-3 text-black vibrating-icon'>
                                             <FaPhoneAlt size="1.2em" />
                                         </span>
-                                        <span className="px-2"> Get in Touch </span>
+                                        <span className="px-2"> Book Your Service Now </span>
                                     </Link>
                                 </button>
                             </div>
@@ -152,11 +155,11 @@ const HeroSection = () => {
                                                 onChange={handleChange}
                                                 className="w-full rounded-md p-2 px-3 mt-1 bg-white"
                                             />
-                                        ) : field === 'service' && services.length > 0 ? ( 
+                                        ) : field === 'service' && services?.length > 0 ? (
                                             <Select
                                                 className="bg-white text-sm rounded-xl mt-1"
                                                 placeholder="Select an option"
-                                                options={services.map((service) => ({
+                                                options={services?.map((service) => ({
                                                     value: service.label,
                                                     label: service.label
                                                 }))}
