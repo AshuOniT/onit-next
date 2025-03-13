@@ -1,8 +1,10 @@
 "use client"
 
+import React from 'react'
+import GooglePlayStoreCta from "@/components/layout/GooglePlayStoreCta";
 import HeroSection from '@/components/service/HeroSection';
 import { useParams, useRouter } from 'next/navigation';
-import React from 'react'
+import ACServicePlans from '@/components/service/AcServicePlan';
 
 const OnitServices = () => {
 
@@ -30,6 +32,10 @@ const OnitServices = () => {
     return (
         <>
             <HeroSection serviceSlug={service} />
+            
+            <GooglePlayStoreCta />
+
+            <ACServicePlans />
         </>
     )
 }

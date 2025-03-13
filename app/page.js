@@ -1,6 +1,6 @@
 import HeroSection from "@/components/home/HeroSection";
 import Services from "@/components/home/Services";
-import GooglePlayStoreCta from "@/components/home/GooglePlayStoreCta";
+import GooglePlayStoreCta from "@/components/layout/GooglePlayStoreCta";
 import PlaneCta from "@/components/layout/PlaneCta";
 import HowItWorks from "@/components/home/HowItWorks";
 import WhyChooseUs from "@/components/home/WhyChooseUs";

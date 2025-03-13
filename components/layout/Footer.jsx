@@ -52,9 +52,9 @@ const Footer = () => {
                   <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
                     <Link href="/">Refund Policy</Link>
                   </li>
-                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
+                  {/* <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
                     <Link href="/contact-us">Help &amp; Contact </Link>
-                  </li>
+                  </li> */}
                 </ul>
 
                 <ul className="mx-auto w-fit md:w-full text-sm columns-2 gap-x-6 md:gap-x-0 gap-y-2 md:flex md:flex-wrap md:flex-row md:items-center justify-start md:divide-x-2 divide-gray-400 my-4">
