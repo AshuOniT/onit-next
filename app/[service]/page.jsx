@@ -5,6 +5,10 @@ import GooglePlayStoreCta from "@/components/layout/GooglePlayStoreCta";
 import HeroSection from '@/components/service/HeroSection';
 import { useParams, useRouter } from 'next/navigation';
 import ACServicePlans from '@/components/service/AcServicePlan';
+import PlaneCta from '@/components/layout/PlaneCta';
+import HowItWorks from '@/components/home/HowItWorks';
+import WhyChooseUs from '@/components/home/WhyChooseUs';
+import NeedHelp from '@/components/layout/NeedHelp';
 
 const OnitServices = () => {
 
@@ -32,10 +36,19 @@ const OnitServices = () => {
     return (
         <>
             <HeroSection serviceSlug={service} />
-            
+
             <GooglePlayStoreCta />
 
             <ACServicePlans />
+
+            <PlaneCta />
+
+            <HowItWorks />
+
+            <WhyChooseUs />
+
+            <NeedHelp />
+
         </>
     )
 }
