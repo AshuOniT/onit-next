@@ -297,9 +297,10 @@ export default function ACServicePlans() {
                       <div className="flex lg:flex-col justify-center items-center gap-10 lg:gap-6">
 
                         <div className="flex items-center gap-4">
-                          <Button variant="default" className="border-teal-600 border bg-white rounded-sm text-teal-700 whitespace-nowrap cursor-pointer">
-                            Contact
+                         <Link href="/service-form"> <Button variant="default" className="border-teal-600 hover:bg-white border bg-white rounded-sm text-teal-700 whitespace-nowrap cursor-pointer">
+                            Request Service
                           </Button>
+                          </Link>
                         </div>
 
                         <div>
