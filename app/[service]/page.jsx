@@ -1,53 +1,32 @@
-"use client"
 
-import React from 'react'
-import GooglePlayStoreCta from "@/components/layout/GooglePlayStoreCta";
-import HeroSection from '@/components/service/HeroSection';
-import { useParams, useRouter } from 'next/navigation';
-import ACServicePlans from '@/components/service/AcServicePlan';
-import PlaneCta from '@/components/layout/PlaneCta';
-import HowItWorks from '@/components/home/HowItWorks';
-import WhyChooseUs from '@/components/home/WhyChooseUs';
-import NeedHelp from '@/components/layout/NeedHelp';
+import metaData from "@/staticMeta/meta.json";
+import ServicesComponent from "./ServicesComponent";
+
+export async function generateMetadata({ params, searchParams }, parent) {
+    // read route params
+    const { service } = await params
+
+    console.log("params", params);
+
+    const meta = metaData[service] || {};
+
+    return {
+        title: meta.title || "Professional Home Services | AC Repair, Electrical & Cleaning | Onit",
+        description: meta.description || "Trusted experts providing comprehensive home services including AC repair, electrical work, and cleaning. Fast response, quality workmanship, and satisfaction guaranteed across Delhi NCR.",
+        robots: meta.robots,
+        alternates: {
+            canonical: service,
+        },
+    }
+}
+
 
 const OnitServices = () => {
 
-    const params = useParams();
-    const router = useRouter();
-    const { service } = params;
-
-    const activeSlugData = [
-        { slug: "ac-services-noida" },
-        { slug: "ac-services-delhi" },
-        { slug: "ac-services-ghaziabad" }
-    ];
-
-
-    if (activeSlugData) {
-        const isSlugActive = activeSlugData?.some((item) => `${item?.slug}` === service);
-
-        // Redirect to 404 if no matching slug is found
-        if (!isSlugActive) {
-            router.replace("/404");
-            return null
-        }
-    }
 
     return (
         <>
-            <HeroSection serviceSlug={service} />
-
-            <GooglePlayStoreCta />
-
-            <ACServicePlans />
-
-            <PlaneCta />
-
-            <HowItWorks />
-
-            <WhyChooseUs />
-
-            <NeedHelp />
+            <ServicesComponent />
 
         </>
     )

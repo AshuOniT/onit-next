@@ -2,7 +2,7 @@
 import { Mail } from "lucide-react"
 import Image from "next/image"
 import needHelp from "@/public/needHelp/needHelp.png"
-import acRepair from "@/public/needHelp/acRepair.png"
+import acRepair from "@/public/needHelp/acRepair1.png"
 
 const NeedHelp = () => {
   return (

@@ -15,36 +15,6 @@ export default function ACServicePlans() {
   // Different plans for Split AC and Window AC
   const splitACPlans = [
     {
-      "title": "AC AMC - Basic (1 year)",
-      "description": "Annual care plan including jet service, unlimited repairs and gas charging to keep your AC running smoothly.",
-      "isAvailable": true,
-      "points": [
-        "2 maintenance services using power jet",
-        "Up to 2 free gas charging, if required",
-        "Unlimited breakdown support for any issue with AC",
-        "Free transportation for repairs, if required",
-        "Service charge coverage for a year",
-        "Only for ACs less than 10 years old",
-        "Cost of spare parts, PCB repair, installation & uninstallation services are not covered",
-        "If the AC requires gas charging or part replacement during the first visit/inspection, the charges are to be borne by the customer",
-        "If the renewal of the AMC is not done within 15 days of expiry, it will be treated as a new plan. Consequently, the customer will have to bear the repair expenses of the first visit, if any"
-      ]
-    },
-    {
-      "title": "AC AMC - Advanced (1 year)",
-      "description": "Complete care of AC covering jet service, spare parts, unlimited repairs and gas charging by an expert engineer.",
-      "isAvailable": true,
-      "points": [
-        "4 maintenance services using power jet",
-        "Unlimited gas charging",
-        "24/7 breakdown support",
-        "Free transportation for all services",
-        "Comprehensive coverage for a year",
-        "Includes basic spare parts replacement",
-        "Priority service scheduling"
-      ]
-    },
-    {
       "title": "AC Jet Service",
       "description": "Cleaning of AC with water jet by an expert engineer for better cooling and lower power consumption.",
       "isAvailable": true,
@@ -87,36 +57,7 @@ export default function ACServicePlans() {
 
 
   const windowACPlans = [
-    {
-      "title": "AC AMC - Basic (1 year)",
-      "description": "Annual care plan including jet service, unlimited repairs and gas charging to keep your AC running smoothly.",
-      "isAvailable": true,
-      "points": [
-        "2 maintenance services using power jet",
-        "Up to 2 free gas charging, if required",
-        "Unlimited breakdown support for any issue with AC",
-        "Free transportation for repairs, if required",
-        "Service charge coverage for a year",
-        "Only for ACs less than 10 years old",
-        "Cost of spare parts, PCB repair, installation & uninstallation services are not covered",
-        "If the AC requires gas charging or part replacement during the first visit/inspection, the charges are to be borne by the customer",
-        "If the renewal of the AMC is not done within 15 days of expiry, it will be treated as a new plan. Consequently, the customer will have to bear the repair expenses of the first visit, if any"
-      ]
-    },
-    {
-      "title": "AC AMC - Advanced (1 year)",
-      "description": "Complete care of AC covering jet service, spare parts, unlimited repairs and gas charging by an expert engineer.",
-      "isAvailable": true,
-      "points": [
-        "4 maintenance services using power jet",
-        "Unlimited gas charging",
-        "24/7 breakdown support",
-        "Free transportation for all services",
-        "Comprehensive coverage for a year",
-        "Includes basic spare parts replacement",
-        "Priority service scheduling"
-      ]
-    },
+
     {
       "title": "AC Jet Service",
       "description": "Cleaning of AC with water jet by an expert engineer for better cooling and lower power consumption.",
@@ -218,12 +159,7 @@ export default function ACServicePlans() {
                   </div>
                   <span>90-day warranty on spare parts</span>
                 </li>
-                <li className="flex items-start">
-                  <div className="mr-2 bg-teal-500 rounded-full p-1">
-                    <Check className="h-4 w-4 text-white" />
-                  </div>
-                  <span>AC AMC (Annual Maintenance) Plans Available</span>
-                </li>
+               
                 <li className="flex items-start">
                   <div className="mr-2 bg-teal-500 rounded-full p-1">
                     <Check className="h-4 w-4 text-white" />
@@ -236,14 +172,17 @@ export default function ACServicePlans() {
             <div className="text-sm text-gray-600">
               <p>
                 We offer Air Conditioner services in{" "}
-                <Link href="ac-services-delhi" className="text-teal-600 font-medium">
+                <Link href="ac-repair-services-in-delhi" className="text-teal-600 font-medium">
                   Delhi
                 </Link>{", "}
-                <Link href="ac-services-noida" className="text-teal-600 font-medium">
+                <Link href="ac-repair-services-in-delhi" className="text-teal-600 font-medium">
+                  Indirapuram
+                </Link>{", "}
+                <Link href="ac-repair-services-in-noida" className="text-teal-600 font-medium">
                   Noida
                 </Link>{" and "}
-                <Link href="ac-services-ghaziabad" className="text-teal-600 font-medium">
-                  Ghaziabad
+                <Link href="ac-repair-services-in-ghaziabad" className="text-teal-600 font-medium">
+                  Ghaziabad{"."}
                 </Link>
               </p>
               <p className="mt-4">

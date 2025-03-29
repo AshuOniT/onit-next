@@ -1,6 +1,17 @@
 import React from 'react'
 import ServiceRequestForm from "@/components/serviceRequestForm/ServiceRequestForm"
 
+
+export const metadata = {
+    title: "Need AC Repair? Local Experts Just Minutes Away | Onit",
+    description: "Feeling the heat? Our certified technicians deliver same-day AC repairs with upfront pricing. Get back to comfort quickly—schedule your service in seconds.",
+    robots: "index",
+    alternates: {
+        canonical: "service-form",
+    },
+  }
+
+
 const ServiceForm = () => {
     return (
         <>

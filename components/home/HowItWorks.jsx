@@ -23,8 +23,8 @@ export default function HowItWorks() {
                 icon: booking,
             },
             {
-                title: "Confirmation By Center",
-                description: "Within minutes, our local service center reviews your request and matches you with the perfect professional based on your specific needs and location.",
+                title: "Intimation of service provider",
+                description: "Our center quickly matches you with the ideal professional based on your requirements and location.",
                 icon: checkMark,
             },
             {

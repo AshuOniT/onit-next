@@ -12,9 +12,10 @@ import appstore from "@/public/onitLogo/Appstore.webp";
 import Link from "next/link";
 
 const activeSlugData = [
-  { slug: "ac-services-noida", label: "AC Services in Noida" },
-  { slug: "ac-services-delhi", label: "AC Services in Delhi" },
-  { slug: "ac-services-ghaziabad", label: "AC Services in Ghaziabad" }
+  { slug: "ac-repair-services-in-noida", label: "AC Services in Noida" },
+  { slug: "ac-repair-services-in-delhi", label: "AC Services in Delhi" },
+  { slug: "ac-repair-services-in-ghaziabad", label: "AC Services in Ghaziabad" },
+  { slug: "ac-repair-services-in-indirapuram", label: "AC Services in Indirapuram" }
 ];
 
 
@@ -31,7 +32,7 @@ const Footer = () => {
               <div className="text-gray-200">
                 <p>OniT services
                   Aspen Heights Vaibhav Khand,
-                  Indirapuram, Gaziabad ( UP )
+                  Indirapuram, Ghaziabad ( UP )
                   201014</p>
                 <p>Ph. 8800502322</p>
               </div>

@@ -8,6 +8,13 @@ import Testimonial from "@/components/home/Testimonial";
 import NeedHelp from "@/components/layout/NeedHelp";
 
 
+export const metadata = {
+  title: "AC Repair Service Near Me | Onit",
+  description: "Fast, reliable, and affordable AC repair near you. Stay cool with Onit's expert service—contact us today!",
+  robots: "index",
+}
+
+
 export default function Home() {
   return (
     <>

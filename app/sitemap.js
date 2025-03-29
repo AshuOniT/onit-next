@@ -21,19 +21,25 @@ export default async function sitemap() {
         priority: 0.8,
       },
       {
-        url: "https://www.onit.services/ac-services-noida",
+        url: "https://www.onit.services/ac-repair-services-in-noida",
         changeFrequency: "yearly",
         lastModified: "2025-01-27T09:45:58.558Z",
         priority: 0.8,
       },
       {
-        url: "https://www.onit.services/ac-services-ghaziabad",
+        url: "https://www.onit.services/ac-repair-services-in-ghaziabad",
         changeFrequency: "yearly",
         lastModified: "2025-01-27T09:45:58.558Z",
         priority: 0.8,
       },
       {
-        url: "https://www.onit.services/ac-services-delhi",
+        url: "https://www.onit.services/ac-repair-services-in-delhi",
+        changeFrequency: "yearly",
+        lastModified: "2025-01-27T09:45:58.558Z",
+        priority: 0.8,
+      },
+      {
+        url: "https://www.onit.services/ac-repair-services-in-indirapuram",
         changeFrequency: "yearly",
         lastModified: "2025-01-27T09:45:58.558Z",
         priority: 0.8,

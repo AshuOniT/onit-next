@@ -15,7 +15,7 @@ const services = [
         title: "AC Services",
         description: "Expert AC repairs, maintenance and installations with 24/7 emergency service. We bring comfort back to your home when you need it most.",
         image: acService,
-        benefits: ["24/7 emergency service", "Certified technicians", "Same-day appointments", "Transparent pricing", "All major brands serviced"]
+        benefits: ["24/7 emergency service", "Certified technicians", "Same-day appointments", "Affordable Pricing", "All major brands serviced"]
     },
     {
         id: "2",

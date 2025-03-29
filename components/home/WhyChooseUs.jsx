@@ -26,19 +26,19 @@ const WhyChooseUs = () => {
 
               <div className="">
                 <span><MdAccessTime className='text-purple-500 text-xl' /></span>
-                <h5 className='font-semibold my-1'>Prompt Arrival</h5>
+                <h5 className='font-semibold my-1'>Quick Arrival</h5>
                 <p className='text-sm text-gray-500 font-normal'>We respect your time with punctual service.</p>
               </div>
 
               <div className="">
                 <span><MdHandyman className='text-yellow-500 text-xl' /></span>
-                <h5 className='font-semibold my-1'>Transparent Pricing</h5>
+                <h5 className='font-semibold my-1'>Affordable Pricing</h5>
                 <p className='text-sm text-gray-500 font-normal'>No surprises or hidden fees ever.</p>
               </div>
 
               <div className="">
                 <span><MdSecurity className='text-teal-700 text-xl' /></span>
-                <h5 className='font-semibold my-1'>Guaranteed Results</h5>
+                <h5 className='font-semibold my-1'>Assured Warranty</h5>
                 <p className='text-sm text-gray-500 font-normal'>
                   We stand behind every job with our satisfaction promise.
                 </p>

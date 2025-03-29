@@ -4,6 +4,15 @@ import React from 'react'
 import HereToHelp from "@/components/about/HereToHelp";
 import NeedHelp from "@/components/layout/NeedHelp";
 
+export const metadata = {
+    title: "Our Story | Meet the Onit Team Behind Your Home Services",
+    description: "From humble beginnings to trusted neighborhood experts. Discover the passionate people who make Onit your go-to for AC repair, electrical work, cleaning, and more.",
+    robots: "index",
+    alternates: {
+        canonical: "about-us",
+    },
+  }
+
 const AboutUs = () => {
     return (
         <>

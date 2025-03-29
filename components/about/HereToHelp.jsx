@@ -12,12 +12,12 @@ const HereToHelp = () => {
                 "Our highly trained professionals diagnose issues accurately the first time, saving you time and preventing recurring problems.",
         },
         {
-            title: "Transparent Pricing",
+            title: "Affordable Pricing",
             description:
                 "We provide detailed upfront quotes with no hidden fees, ensuring you know exactly what you're paying for before work begins.",
         },
         {
-            title: "24/7 Emergency Response",
+            title: "24/7 Service Booking",
             description:
                 "When urgent issues arise, our team is ready to respond day or night, providing peace of mind when home emergencies can't wait.",
         },

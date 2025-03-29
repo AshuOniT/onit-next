@@ -11,7 +11,7 @@ const heroSection = [
     "description": "Beat the Noida heat with expert AC repair, maintenance, and installation services. Whether it's a quick fix or a full upgrade, our professionals ensure your cooling never takes a break. Fast, reliable, and budget-friendly—because you deserve uninterrupted comfort!",
     "ctaText": "Book Your Service Now",
     "ctaRedirectUrl": "contact-us",
-    "fetchOnSlug": "ac-services-noida",
+    "fetchOnSlug": "ac-repair-services-in-noida",
     "imageUrl": ""
   },
   {
@@ -19,7 +19,7 @@ const heroSection = [
     "description": "Delhi summers are tough, but your AC shouldn’t be! From urgent repairs to seamless installations, our expert technicians keep your cooling systems running at peak performance. Fast response, quality service, and guaranteed satisfaction!",
     "ctaText": "Schedule a Service",
     "ctaRedirectUrl": "contact-us",
-    "fetchOnSlug": "ac-services-delhi",
+    "fetchOnSlug": "ac-repair-services-in-delhi",
     "imageUrl": ""
   },
   {
@@ -27,7 +27,7 @@ const heroSection = [
     "description": "When your AC struggles, we step in! Get top-notch AC repair, servicing, and installation in Ghaziabad at unbeatable prices. Quick turnaround, expert solutions, and a commitment to keeping you cool—your comfort is our priority!",
     "ctaText": "Get Expert Assistance",
     "ctaRedirectUrl": "contact-us",
-    "fetchOnSlug": "ac-services-ghaziabad",
+    "fetchOnSlug": "ac-repair-services-in-ghaziabad",
     "imageUrl": ""
   }
 ];
