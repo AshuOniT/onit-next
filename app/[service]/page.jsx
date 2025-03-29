@@ -6,8 +6,6 @@ export async function generateMetadata({ params, searchParams }, parent) {
     // read route params
     const { service } = await params
 
-    console.log("params", params);
-
     const meta = metaData[service] || {};
 
     return {

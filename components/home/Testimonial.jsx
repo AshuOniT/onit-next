@@ -130,8 +130,8 @@ const Testimonial = ({ autoPlayInterval = 5000 }) => {
                                     {testimonials[currentIndex].content}
                                 </div>
 
-                                <Avatar className="h-16 w-16 border-2 border-primary/10">
-                                    <AvatarImage src="https://github.com/shadcn.png" alt={testimonials[currentIndex].author} />
+                                <Avatar className="h-12 w-12 border-2 border-primary/10">
+                                    <AvatarImage src="https://icons.veryicon.com/png/o/miscellaneous/common-area-icons/default-avatar-1.png" alt={testimonials[currentIndex].author} />
                                     {/* <AvatarImage src={testimonials[currentIndex].avatarSrc} alt={testimonials[currentIndex].author} /> */}
                                     <AvatarFallback className="bg-primary/5 text-primary">
                                         {testimonials[currentIndex].avatarFallback || testimonials[currentIndex].author.charAt(0)}

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaPhoneAlt } from "react-icons/fa";
 // import heroImage1 from "@/public/services/heroImage1.png"
 import heroImg from "@/public/services/heroImage.png"
+import indianHeroImg from "@/public/services/indianHeroImg.jpeg"
 // import Lottie from "lottie-react";
 // import acInstallation from '@/public/services/acInstallation.json';
 
@@ -16,7 +17,7 @@ const heroSection = [
         "ctaText": "Book Your Service Now",
         "ctaRedirectUrl": "tel:+91-8800502322",
         "fetchOnSlug": "ac-repair-services-in-noida",
-        "imageUrl": heroImg
+        "imageUrl": indianHeroImg
     },
     {
         "title": "AC Services in Delhi – Reliable Cooling, Anytime, Anywhere!",
@@ -32,7 +33,7 @@ const heroSection = [
         "ctaText": "Book Your Service Now",
         "ctaRedirectUrl": "tel:+91-8800502322",
         "fetchOnSlug": "ac-repair-services-in-ghaziabad",
-        "imageUrl": heroImg
+        "imageUrl": indianHeroImg
     },
     {
         "title": "Reliable AC Services in Indirapuram – Your Cooling Partner!",
@@ -67,8 +68,8 @@ const HeroSection = ({ serviceSlug }) => {
 
             <div className="flex flex-wrap relative onit-service-HeroSection">
 
-                <div className='w-full lg:w-[59%] lg:mt-10 mt-16'>
-                    <div className='h-full relative text-gray-500 py-8 sm:py-20 px-7 lg:px-24'>
+                <div className='w-full lg:w-[57%] lg:mt-10 mt-16'>
+                    <div className='h-full relative text-gray-500 py-8 sm:py-20 px-7 lg:px-20'>
 
                         <div className='flex flex-wrap z-10 h-full'>
                             <div className='z-10 w-full'>
@@ -98,12 +99,12 @@ const HeroSection = ({ serviceSlug }) => {
                 {/* half */}
 
 
-                <div className='md:w-[40%] w-full flex-shrink-0 flex-grow-0 flex justify-center items-center'>
+                <div className='md:w-[41%] w-full flex-shrink-0 flex-grow-0 flex justify-center items-center'>
                     {/* <div className='px-4 lg:py-10 z-10 py-2 xl:px-24 relative'> */}
                     <div className='z-10 relative lg:px-16'>
 
 
-                        <div className="w-full flex pb-10 sm:pb-0  items-center justify-center">
+                        <div className="rounded-xl overflow-hidden w-full flex pb-10 sm:pb-0  items-center justify-center">
                             <Image
                                 src={imageUrl}
                                 alt="Ac Services Vector Image"

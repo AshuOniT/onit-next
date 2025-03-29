@@ -32,7 +32,7 @@ const ServicesComponent = () => {
 
         // Redirect to 404 if no matching slug is found
         if (!isSlugActive) {
-            router.replace("/404");
+            router.push("/404");
             return null
         }
     }

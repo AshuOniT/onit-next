@@ -44,23 +44,23 @@ const Footer = () => {
                   Quick Links
                 </h3>
                 <ul className="mx-auto w-fit md:w-full text-sm columns-2 gap-x-6 md:gap-x-0 gap-y-2 md:flex md:flex-wrap md:flex-row md:items-center justify-start md:divide-x-2 divide-gray-400 my-4">
-                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
+                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-600 ">
                     <Link href="/">Terms of Service</Link>
                   </li>
-                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
+                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-600 ">
                     <Link href="/">Privacy Policy</Link>
                   </li>
-                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
+                  <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-600 ">
                     <Link href="/">Refund Policy</Link>
                   </li>
-                  {/* <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700 ">
+                  {/* <li className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-600 ">
                     <Link href="/contact-us">Help &amp; Contact </Link>
                   </li> */}
                 </ul>
 
                 <ul className="mx-auto w-fit md:w-full text-sm columns-2 gap-x-6 md:gap-x-0 gap-y-2 md:flex md:flex-wrap md:flex-row md:items-center justify-start md:divide-x-2 divide-gray-400 my-4">
                   {activeSlugData.map((item, index) => (
-                    <li key={index} className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-700">
+                    <li key={index} className="py-1 md:py-0 leading-4 md:px-2 text-gray-200 hover:text-teal-600">
                       <Link href={`/${item.slug}`}>{item.label}</Link>
                     </li>
                   ))}
@@ -81,7 +81,7 @@ const Footer = () => {
                       />
                       </Link>
                     </li>
-                    <li className="w-fit flex justify-center">
+                    <li className="w-fit flex justify-center" title="Comming soon">
                       <Image
                         src={appstore}
                         className="object-contain h-9 w-auto"
